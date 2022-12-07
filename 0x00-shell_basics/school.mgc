@@ -1,0 +1,18 @@
+#!/bin/bash
+touch input school.mgc
+touch magic
+0 string SCHOOL school data
+!:mime school
+file --magic-file=magic --compile
+file --magic-file=magic.mgc input
+input: school data
+
+
+
+
+
+
+
+
+
+
