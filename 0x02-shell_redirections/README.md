@@ -32,3 +32,5 @@ Create a script that removes all letters c
 Write a script that reverse its input.
 0.0%)
 Write a script that displays all users and their home directories, sorted by users.
+Checks completed: 0.0%)
+Write a command that finds all empty files and directories in the current directory and all sub-directories.
