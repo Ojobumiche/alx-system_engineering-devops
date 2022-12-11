@@ -12,3 +12,4 @@ Love is anterior to life, posterior to death, initial of creation, and the expon
 There are 10 types of people in the world -- Those who understand binary, and those who don't
 Contibution
 Floats
+Decimal to Hexadecimal
