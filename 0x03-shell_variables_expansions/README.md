@@ -6,3 +6,4 @@ Global variables
 Local variable
 Local variable
 Global variable
+Divide and rule
