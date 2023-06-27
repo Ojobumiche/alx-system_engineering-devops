@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Update system packages
+sudo apt update
+
+# Install Nginx
+sudo apt install nginx -y
+
+# Configure Nginx
+sudo tee /etc/nginx/sites-available/default << EOF
+server {
+    listen 80;
+    location / {
+        echo "Hello World!";
+    }
+}
+EOF
+
+# Restart Nginx
+sudo service nginx restart
