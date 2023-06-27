@@ -1,32 +1,9 @@
 #!/usr/bin/env bash
-
-# Update the package lists and upgrade existing packages
-sudo apt-get update
-sudo apt-get upgrade -y
-
-# Install nginx
-sudo apt-get install nginx -y
-
-# Configure nginx to listen on port 80
-sudo sed -i 's/listen 80 default_server;/listen 80;/' /etc/nginx/sites-available/default
-
-# Restart nginx
-sudo service nginx restart
-
-# Create a custom HTML file with the desired content
-sudo bash -c 'cat > /var/www/html/index.html <<EOF
-<html>
-<head>
-    <title>Hello World!</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-</body>
-</html>
-EOF'
-
-# Provide read permissions to everyone for the HTML file
-sudo chmod 644 /var/www/html/index.html
-
-# Print a success message
-echo "Nginx has been installed and configured to display 'Hello World!'"
+#Install nginx on your web-01 server
+#Nginx should be listening on port 80
+#When querying Nginx at its root / with a GET request (requesting a page)
+# using curl, it must return a page that contains the string Hello World!
+apt-get update
+apt-get install -y nginx
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
+service nginx restart
