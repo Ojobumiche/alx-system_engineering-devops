@@ -11,6 +11,6 @@ ufw allow 'Nginx HTTP'
 # Add the redirection rule to the Nginx configuration file
 echo -e "$REDIRECT" >> "$FILE"
 # Update the default Nginx server configuration
-nginx -t && service nginx start
+nginx -t && service nginx restart
 # Replace the default index page content
 echo "$STRING" > /var/www/html/index.nginx-debian.html
