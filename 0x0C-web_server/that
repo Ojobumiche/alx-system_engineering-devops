@@ -1,0 +1,351 @@
+Script started on Wed 28 Jun 2023 10:29:14 AM PDT
+]0;root@cacfd543241b: /alx-system_engineering-devops/0x0C-web_serverroot@cacfd543241b:/alx-system_engineering-devops/0x0C-web_server# curl -sI 18.204.16 .7/xyz
+]0;root@cacfd543241b: /alx-system_engineering-devops/0x0C-web_serverroot@cacfd543241b:/alx-system_engineering-devops/0x0C-web_server# git add .
+]0;root@cacfd543241b: /alx-system_engineering-devops/0x0C-web_serverroot@cacfd543241b:/alx-system_engineering-devops/0x0C-web_server# git commit -m "Not  found page 404"
+[master 5067b3b] Not found page 404
+ 2 files changed, 22 insertions(+)
+ create mode 100755 0x0C-web_server/4-not_found_page_404
+ create mode 100644 0x0C-web_server/that
+]0;root@cacfd543241b: /alx-system_engineering-devops/0x0C-web_serverroot@cacfd543241b:/alx-system_engineering-devops/0x0C-web_server# git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 5, done.
+Delta compression using up to 2 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 957 bytes | 0 bytes/s, done.
+Total 5 (delta 2), reused 1 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+remote: To https://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@github.com/Ojobumiche/alx-system_engineering-devops.git
+   8eeac69..5067b3b  master -> master
+]0;root@cacfd543241b: /alx-system_engineering-devops/0x0C-web_serverroot@cacfd543241b:/alx-system_engineering-devops/0x0C-web_server# [H[2J]0;root@cacfd543241b: /alx-system_engineering-devops/0x0C-web_serverroot@cacfd543241b:/alx-system_engineering-devops/0x0C-web_server# ssh ubuntu@18.204. 16.7
+key_load_public: invalid format
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0-1021-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Jun 28 17:31:16 UTC 2023
+
+  System load:  0.0                Processes:             116
+  Usage of /:   12.4% of 19.20GB   Users logged in:       1
+  Memory usage: 32%                IPv4 address for eth0: 10.247.97.162
+  Swap usage:   0%
+
+ * Ubuntu Pro delivers the most comprehensive open source security and
+   compliance features.
+
+   https://ubuntu.com/aws/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+11 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+*** System restart required ***
+Last login: Wed Jun 28 15:41:24 2023 from 3.95.26.198
+]0;ubuntu@216736-web-01: ~ubuntu@216736-web-01:~$ cd /
+]0;ubuntu@216736-web-01: /ubuntu@216736-web-01:/$ cd alx-system_engineering-devops/
+]0;ubuntu@216736-web-01: /alx-system_engineering-devopsubuntu@216736-web-01:/alx-system_engineering-devops$ cd 0x0C-web_server/
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ sudo git pull
+remote: Enumerating objects: 16, done.[K
+remote: Counting objects:   6% (1/16)[Kremote: Counting objects:  12% (2/16)[Kremote: Counting objects:  18% (3/16)[Kremote: Counting objects:  25% (4/16)[Kremote: Counting objects:  31% (5/16)[Kremote: Counting objects:  37% (6/16)[Kremote: Counting objects:  43% (7/16)[Kremote: Counting objects:  50% (8/16)[Kremote: Counting objects:  56% (9/16)[Kremote: Counting objects:  62% (10/16)[Kremote: Counting objects:  68% (11/16)[Kremote: Counting objects:  75% (12/16)[Kremote: Counting objects:  81% (13/16)[Kremote: Counting objects:  87% (14/16)[Kremote: Counting objects:  93% (15/16)[Kremote: Counting objects: 100% (16/16)[Kremote: Counting objects: 100% (16/16), done.[K
+remote: Compressing objects:  11% (1/9)[Kremote: Compressing objects:  22% (2/9)[Kremote: Compressing objects:  33% (3/9)[Kremote: Compressing objects:  44% (4/9)[Kremote: Compressing objects:  55% (5/9)[Kremote: Compressing objects:  66% (6/9)[Kremote: Compressing objects:  77% (7/9)[Kremote: Compressing objects:  88% (8/9)[Kremote: Compressing objects: 100% (9/9)[Kremote: Compressing objects: 100% (9/9), done.[K
+remote: Total 13 (delta 7), reused 9 (delta 3), pack-reused 0[K
+Unpacking objects:   7% (1/13)Unpacking objects:  15% (2/13)Unpacking objects:  23% (3/13)Unpacking objects:  30% (4/13)Unpacking objects:  38% (5/13)Unpacking objects:  46% (6/13)Unpacking objects:  53% (7/13)Unpacking objects:  61% (8/13)Unpacking objects:  69% (9/13)Unpacking objects:  76% (10/13)Unpacking objects:  84% (11/13)Unpacking objects:  92% (12/13)Unpacking objects: 100% (13/13)Unpacking objects: 100% (13/13), 1.96 KiB | 502.00 KiB/s, done.
+From https://github.com/Ojobumiche/alx-system_engineering-devops
+   5858756..5067b3b  master     -> origin/master
+Updating 5858756..5067b3b
+error: Your local changes to the following files would be overwritten by merge:
+	0x0C-web_server/3-redirection
+Please commit your changes or stash them before you merge.
+Aborting
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ vi README.md 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"README.md" [readonly] 1L, 17C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H0x0C. Web server
+[1m[34m~                                                                                   [3;1H~                                                                                   [4;1H~                                                                                   [5;1H~                                                                                   [6;1H~                                                                                   [7;1H~                                                                                   [8;1H~                                                                                   [9;1H~                                                                                   [10;1H~                                                                                   [11;1H~                                                                                   [12;1H~                                                                                   [13;1H~                                                                                   [14;1H~                                                                                   [15;1H~                                                                                   [16;1H~                                                                                   [17;1H~                                                                                   [18;1H~                                                                                   [19;1H~                                                                                   [20;1H~                                                                                   [21;1H~                                                                                   [22;1H~                                                                                   [23;1H~                                                                                   [24;1H~                                                                                   [25;1H~                                                                                   [26;1H~                                                                                   [27;1H~                                                                                   [28;1H~                                                                                   [29;1H~                                                                                   [30;1H~                                                                                   [31;1H~                                                                                   [32;1H~                                                                                   [33;1H~                                                                                   [34;1H~                                                                                   [35;1H~                                                                                   [36;1H~                                                                                   [37;1H~                                                                                   [38;1H~                                                                                   [39;1H~                                                                                   [40;1H~                                                                                   [41;1H~                                                                                   [42;1H~                                                                                   [43;1H~                                                                                   [44;1H~                                                                                   [45;1H~                                                                                   [46;1H~                                                                                   [47;1H~                                                                                   [m[48;67H1,1[11CAll[1;1H[?25h[?25l[48;57H^[[1;1H[48;59H][1;1H[48;60H1[1;1H[48;61H1[1;1H[48;57H     [1;1H[27m[23m[29m[m[H[2J[1;1H0x0C. Web server
+[1m[34m~                                                                                   [3;1H~                                                                                   [4;1H~                                                                                   [5;1H~                                                                                   [6;1H~                                                                                   [7;1H~                                                                                   [8;1H~                                                                                   [9;1H~                                                                                   [10;1H~                                                                                   [11;1H~                                                                                   [12;1H~                                                                                   [13;1H~                                                                                   [14;1H~                                                                                   [15;1H~                                                                                   [16;1H~                                                                                   [17;1H~                                                                                   [18;1H~                                                                                   [19;1H~                                                                                   [20;1H~                                                                                   [21;1H~                                                                                   [22;1H~                                                                                   [23;1H~                                                                                   [24;1H~                                                                                   [25;1H~                                                                                   [26;1H~                                                                                   [27;1H~                                                                                   [28;1H~                                                                                   [29;1H~                                                                                   [30;1H~                                                                                   [31;1H~                                                                                   [32;1H~                                                                                   [33;1H~                                                                                   [34;1H~                                                                                   [35;1H~                                                                                   [36;1H~                                                                                   [37;1H~                                                                                   [38;1H~                                                                                   [39;1H~                                                                                   [40;1H~                                                                                   [41;1H~                                                                                   [42;1H~                                                                                   [43;1H~                                                                                   [44;1H~                                                                                   [45;1H~                                                                                   [46;1H~                                                                                   [47;1H~                                                                                   [m[48;67H1,1[11CAll"README.md" [readonly] 1L, 17C[1;1H[?25h[?25l[48;57Hi[1;1H[48;57H [1;1H[48;1H[1m-- INSERT --[m[48;13H[K[48;67H1,1[11CAll[48;14H[1m[31mW10: Warning: Changing a readonly file[m[48;67H[K[?2004l[?2004h[1;1H[?25h[?25l[48;67H1,2[11CAll[1;2H[?25h[?25l[48;69H3[1;3H[?25h[?25l[48;69H4[1;4H[?25h[?25l[48;69H5[1;5H[?25h[?25l[48;69H6[1;6H[?25h[?25l[48;69H7[1;7H[?25h[?25l[48;69H8[1;8H[?25h[?25l[48;69H9[1;9H[?25h[?25l[48;69H10[1;10H[?25h[?25l[48;70H1[1;11H[?25h[?25l[48;70H2[1;12H[?25h[?25l[48;70H3[1;13H[?25h[?25l[48;70H4[1;14H[?25h[?25l[48;70H5[1;15H[?25h[?25l[48;70H6[1;16H[?25h[?25l[48;70H7[1;17H[?25h[?25l.[48;70H8[1;18H[?25h[48;1H[K[1;17H[?25l[48;57H^[[1;17H[48;57H  [1;18H[48;67H1,17[10CAll[1;17H[?25h[?25l[48;57H:[1;17H[48;57H[K[48;1H:[?2004h[?25hwq[?25l[1m[37m[41mE45: 'readonly' option is set (add ! to override)[?2004h[1;17H[m[48;67H1,17[10CAll[1;17H[?25h[?25l[48;57H:[1;17H[48;1H[K[48;1H:[?2004h[?25hq![?25l[?2004l[23;2t[23;1t[48;1H[K[48;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ sud [Ko vi README.md 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"README.md" 1L, 17C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H0x0C. Web server
+[1m[34m~                                                                                   [3;1H~                                                                                   [4;1H~                                                                                   [5;1H~                                                                                   [6;1H~                                                                                   [7;1H~                                                                                   [8;1H~                                                                                   [9;1H~                                                                                   [10;1H~                                                                                   [11;1H~                                                                                   [12;1H~                                                                                   [13;1H~                                                                                   [14;1H~                                                                                   [15;1H~                                                                                   [16;1H~                                                                                   [17;1H~                                                                                   [18;1H~                                                                                   [19;1H~                                                                                   [20;1H~                                                                                   [21;1H~                                                                                   [22;1H~                                                                                   [23;1H~                                                                                   [24;1H~                                                                                   [25;1H~                                                                                   [26;1H~                                                                                   [27;1H~                                                                                   [28;1H~                                                                                   [29;1H~                                                                                   [30;1H~                                                                                   [31;1H~                                                                                   [32;1H~                                                                                   [33;1H~                                                                                   [34;1H~                                                                                   [35;1H~                                                                                   [36;1H~                                                                                   [37;1H~                                                                                   [38;1H~                                                                                   [39;1H~                                                                                   [40;1H~                                                                                   [41;1H~                                                                                   [42;1H~                                                                                   [43;1H~                                                                                   [44;1H~                                                                                   [45;1H~                                                                                   [46;1H~                                                                                   [47;1H~                                                                                   [m[48;67H1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1H0x0C. Web server
+[1m[34m~                                                                                   [3;1H~                                                                                   [4;1H~                                                                                   [5;1H~                                                                                   [6;1H~                                                                                   [7;1H~                                                                                   [8;1H~                                                                                   [9;1H~                                                                                   [10;1H~                                                                                   [11;1H~                                                                                   [12;1H~                                                                                   [13;1H~                                                                                   [14;1H~                                                                                   [15;1H~                                                                                   [16;1H~                                                                                   [17;1H~                                                                                   [18;1H~                                                                                   [19;1H~                                                                                   [20;1H~                                                                                   [21;1H~                                                                                   [22;1H~                                                                                   [23;1H~                                                                                   [24;1H~                                                                                   [25;1H~                                                                                   [26;1H~                                                                                   [27;1H~                                                                                   [28;1H~                                                                                   [29;1H~                                                                                   [30;1H~                                                                                   [31;1H~                                                                                   [32;1H~                                                                                   [33;1H~                                                                                   [34;1H~                                                                                   [35;1H~                                                                                   [36;1H~                                                                                   [37;1H~                                                                                   [38;1H~                                                                                   [39;1H~                                                                                   [40;1H~                                                                                   [41;1H~                                                                                   [42;1H~                                                                                   [43;1H~                                                                                   [44;1H~                                                                                   [45;1H~                                                                                   [46;1H~                                                                                   [47;1H~                                                                                   [m[48;67H1,1[11CAll"README.md" 1L, 17C[1;1H[?25h[?25l[48;57Hi[1;1H[48;57H [1;1H[48;1H[1m-- INSERT --[m[48;13H[K[48;67H1,1[11CAll[1;1H[?25h[?25l[48;69H2[1;2H[?25h[?25l[48;69H3[1;3H[?25h[?25l[48;69H4[1;4H[?25h[?25l[48;69H5[1;5H[?25h[?25l[48;69H6[1;6H[?25h[?25l[48;69H7[1;7H[?25h[?25l[48;69H8[1;8H[?25h[?25l[48;69H9[1;9H[?25h[?25l[48;69H10[1;10H[?25h[?25l[48;70H1[1;11H[?25h[?25l[48;70H2[1;12H[?25h[?25l[48;70H3[1;13H[?25h[?25l[48;70H4[1;14H[?25h[?25l[48;70H5[1;15H[?25h[?25l[48;70H6[1;16H[?25h[?25l[48;70H7[1;17H[?25h[?25l.[48;70H8[1;18H[?25h[48;1H[K[1;17H[?25l[48;57H^[[1;17H[48;57H  [1;18H[48;67H1,17[10CAll[1;17H[?25h[?25l[48;57H:[1;17H[48;57H[K[48;1H:[?2004h[?25hwq[?25l[?2004l"README.md" 1L, 18C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ git add .
+fatal: detected dubious ownership in repository at '/alx-system_engineering-devops'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /alx-system_engineering-devops
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ sudo git add .
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ sudo git commit  p[K-m "updated readme"
+[master 8b5808d] updated readme
+ 2 files changed, 6 insertions(+), 6 deletions(-)
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ sudo git push
+To https://github.com/Ojobumiche/alx-system_engineering-devops.git
+ [31m! [rejected]       [m master -> master (non-fast-forward)
+[31merror: failed to push some refs to 'https://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@github.com/Ojobumiche/alx-system_engineering-devops.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ sudo git pull
+Auto-merging 0x0C-web_server/3-redirection
+CONFLICT (content): Merge conflict in 0x0C-web_server/3-redirection
+Automatic merge failed; fix conflicts and then commit the result.
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$  git push --hel p
+[?1049h[22;0;0t[?1h=GIT-PUSH(1)                         Git Manual                        GIT-PUSH(1)[m
+[m
+[1mNAME[0m[m
+       git-push - Update remote refs along with associated objects[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mpush[24m [--all | --mirror | --tags] [--follow-tags] [--atomic] [-n | --dry-r[m un] [--receive-pack=<git-receive-pack>][m
+                  [--repo=<repository>] [-f | --force] [-d | --delete] [--prune] [-v[m  | --verbose][m
+                  [-u | --set-upstream] [-o <string> | --push-option=<string>][m
+                  [--[no-]signed|--signed=(true|false|if-asked)][m
+                  [--force-with-lease[=<refname>[:<expect>]]][m
+                  [--no-verify] [<repository> [<refspec>...]][m
+[m
+[1mDESCRIPTION[0m[m
+       Updates remote refs using local refs, while sending objects necessary to[m
+       complete the given refs.[m
+[m
+       You can make interesting things happen to a repository every time you push[m
+       into it, by setting up [4mhooks[24m there. See documentation for [1mgit-receive-[0m[m
+       [1mpack[0m(1).[m
+[m
+       When the command line does not specify where to push with the [1m<repository>[0m[m
+       argument, [1mbranch.*.remote[0m configuration for the current branch is[m
+       consulted to determine where to push. If the configuration is missing, it[m
+       defaults to [4morigin[24m.[m
+[m
+       When the command line does not specify what to push with [1m<refspec>...[0m[m
+       arguments or [1m--all[0m, [1m--mirror[0m, [1m--tags[0m options, the command finds the[m
+       default [1m<refspec>[0m by consulting [1mremote.*.push[0m configuration, and if it is[m
+       not found, honors [1mpush.default[0m configuration to decide what to push (See[m
+       [1mgit-config[0m(1) for the meaning of [1mpush.default[0m).[m
+[m
+       When neither the command-line nor the configuration specify what to push,[m
+       the default behavior is used, which corresponds to the [1msimple[0m value for[m
+       [1mpush.default[0m: the current branch is pushed to the corresponding upstream[m
+       branch, but as a safety measure, the push is aborted if the upstream[m
+       branch does not have the same name as the local one.[m
+[m
+[1mOPTIONS[0m[m
+       <repository>[m
+           The "remote" repository that is destination of a push operation. This[m
+           parameter can be either a URL (see the section GIT URLS below) or the[m
+           name of a remote (see the section REMOTES below).[m
+[m
+       <refspec>...[m
+[7m Manual page git-push(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Specify what destination ref to update with what source object. The[m
+[7m Manual page git-push(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           format of a <refspec> parameter is an optional plus [1m+[0m, followed by the[m
+[7m Manual page git-push(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           source object <src>, followed by a colon [1m:[0m, followed by the[m
+[7m Manual page git-push(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           destination ref <dst>.[m
+[7m Manual page git-push(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The <src> is often the name of the branch you would want to push, but[m
+[7m Manual page git-push(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           it can be any arbitrary "SHA-1 expression", such as [1mmaster~4[0m or [1mHEAD[0m[m
+[7m Manual page git-push(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           (see [1mgitrevisions[0m(7)).[m
+[7m Manual page git-push(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The <dst> tells which ref on the remote side is updated with this[m
+[7m Manual page git-push(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           push. Arbitrary expressions cannot be used here, an actual ref must be[m
+[7m Manual page git-push(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           named. If [1mgit[0m [1mpush[0m [1m[<repository>][0m without any [1m<refspec>[0m argument is[m
+[7m Manual page git-push(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           set to update some ref at the destination with [1m<src>[0m with[m
+[7m Manual page git-push(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mremote.<repository>.push[0m configuration variable, [1m:<dst>[0m part can be[m
+[7m Manual page git-push(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           omitted—such a push will update a ref that [1m<src>[0m normally updates[m
+[7m Manual page git-push(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           without any [1m<refspec>[0m on the command line. Otherwise, missing [1m:<dst>[0m[m
+[7m Manual page git-push(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           means to update the same ref as the [1m<src>[0m.[m
+[7m Manual page git-push(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If <dst> doesn’t start with [1mrefs/[0m (e.g.  [1mrefs/heads/master[0m) we will[m
+[7m Manual page git-push(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           try to infer where in [1mrefs/*[0m on the destination <repository> it[m
+[7m Manual page git-push(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           belongs based on the type of <src> being pushed and whether <dst> is[m
+[7m Manual page git-push(1) line 20 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ git merge[1@s[1@u[1@d[1@o[1@ 
+error: Merging is not possible because you have unmerged files.
+[33mhint: Fix them up in the work tree, and then use 'git add/rm <file>'[m
+[33mhint: as appropriate to mark resolution and make a commit.[m
+fatal: Exiting because of an unresolved conflict.
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ [H[2J]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ git stau[Ktus
+fatal: detected dubious ownership in repository at '/alx-system_engineering-devops'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /alx-system_engineering-devops
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ sudo git status [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ks
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 3 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+	[32mnew file:   4-not_found_page_404[m
+	[32mnew file:   that[m
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   3-redirection[m
+
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ sud [Ko f[Kgit merge  --abort
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ git commit -m " page not found 404"
+fatal: detected dubious ownership in repository at '/alx-system_engineering-devops'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /alx-system_engineering-devops
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ suf[Kdo[K[K[K[Kgit commit -m "page not found 404"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csgit commit -m "[1@p[A]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ [Cugit commit -m [1@"[A]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ [C[Cdgit commit -m[1@ [A]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ [C[C[Cogit commit -[1@m[A]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ [C[C[C[C git commit [1@-[A]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ [C[C[C[C[C
+
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 3 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ sudo git pull
+Auto-merging 0x0C-web_server/3-redirection
+CONFLICT (content): Merge conflict in 0x0C-web_server/3-redirection
+Automatic merge failed; fix conflicts and then commit the result.
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ [H[2J]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ git status
+fatal: detected dubious ownership in repository at '/alx-system_engineering-devops'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /alx-system_engineering-devops
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ sudo git status [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ks
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 3 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+	[32mnew file:   4-not_found_page_404[m
+	[32mnew file:   that[m
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   3-redirection[m
+
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ vi[K[Ksud [Ko vi 3-redirection 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"3-redirection" 39L, 1697C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m#!/usr/bin/env bash[m
+[33m<<<<<<<[m HEAD
+[34m# Configure your Nginx server so that /redirect_me is redirecting to another page.
+# The redirection must be a “[4;30H301 Moved Permanently”[m[5;1H[36mSTRING[m=[33m"[m[31mHello World![m[33m"[m
+[34m# Don't forget to add a / to redirect_me:[m
+[36mREDIRECT[m=[33m"[m[35m\n\t[m[31mlocation = /redirect_me/ {[m[35m\n\t\t[m[31mreturn 301 https://www.youtube.com/watt[8;1Hch?v=QH2-TGUlwu4; [m[35m\n\t[m[31m}[m[35m\n[m[33m"[m
+[36mFILE[m=[33m"[m[31m/etc/nginx/sites-available/default[m[33m"[m
+
+[34m# Add the redirection rule to the Nginx configuration file[m
+[33mecho[m[31m -e [m[33m"[m[35m$REDIRECT[m[33m"[m[31m [m[33m>>[m [33m"[m[35m$FILE[m[33m"[m
+
+[34m# Update the default Nginx server configuration[m
+nginx [35m-t[m && service nginx [33mrestart[m
+
+[34m# Replace the default index page content[m
+[33mecho[m[31m [m[33m"[m[35m$STRING[m[33m"[m[31m [m[33m>[m /var/www/html/index.nginx-debian.html
+[33m=======[m
+[34m# a script that installs Nginx server and /redirect_me
+# to another page. With "301 Move Permanently" using
+# the "1-install_nginx_web_server" script. 
+
+# Update the package lists for upgrades and installs the Nginx server[m
+sudo apt-get [35m-y[m update
+sudo apt-get [35m-y[m install nginx
+
+[34m# Opens the HTTP (port 80) in the UFW firewall to allow Nginx traffic[m
+sudo ufw allow [33m'[m[31mNginx HTTP[m[33m'[m
+
+[34m# Writes the string to the /var/www/html/index file using sudo privileges[m
+[33mecho[m[31m [m[33m"[m[31mWelcome to jostech.tech software solution provider![m[33m"[m[31m [m| sudo tee /var/www/html//[33;1Hindex
+
+[34m# Modifies the Nginx default server configuration file to add a rewrite rule that ree[36;1Hdirects
+# requests for /redirect_me to https://www.youtube.com/watch?v=QH2-TGUlwu4/ permanenn[38;1Htly[m
+sudo [33msed[m [35m-i[m [33m'[m[31m/listen 80 default_server/a rewrite ^/redirect_me https://www.youtube.cc[40;1Hom/watch?v=QH2-TGUlwu4/ permanent;[m[33m'[m /etc/nginx/sites-available/default
+
+[34m# Restarts the Nginx service to apply the changes made to the configuration[m
+sudo service nginx [33mrestart
+>>>>>>>[m 5067b3b35b40f5dc84ff9abd81a7e34959dd2757
+[1m[34m~                                                                                   [46;1H~                                                                                   [47;1H~                                                                                   [m[48;67H16,40[9CAll[17;40H[?25h[?25l[48;57H^[[17;40H[48;59H][17;40H[48;60H1[17;40H[48;61H1[17;40H[48;57H     [17;40H[27m[23m[29m[m[H[2J[1;1H[1m[36m#!/usr/bin/env bash[m
+[1m[33m<<<<<<<[m HEAD
+[1m[36m# Configure your Nginx server so that /redirect_me is redirecting to another page.
+# The redirection must be a “[4;30H301 Moved Permanently”[m[5;1H[1m[36mSTRING[m=[1m[33m"[m[1m[35mHello World![m[1m[33m"[m
+[1m[36m# Don't forget to add a / to redirect_me:[m
+[1m[36mREDIRECT[m=[1m[33m"[m[1m[31m\n\t[m[1m[35mlocation = /redirect_me/ {[m[1m[31m\n\t\t[m[1m[35mreturn 301 https://www.youtube.com/watt[8;1Hch?v=QH2-TGUlwu4; [m[1m[31m\n\t[m[1m[35m}[m[1m[31m\n[m[1m[33m"[m
+[1m[36mFILE[m=[1m[33m"[m[1m[35m/etc/nginx/sites-available/default[m[1m[33m"[m
+
+[1m[36m# Add the redirection rule to the Nginx configuration file[m
+[1m[33mecho[m[1m[35m -e [m[1m[33m"[m[1m[34m$REDIRECT[m[1m[33m"[m[1m[35m [m[1m[33m>>[m [1m[33m"[m[1m[34m$FILE[m[1m[33m"[m
+
+[1m[36m# Update the default Nginx server configuration[m
+nginx [1m[31m-t[m && service nginx [1m[33mrestart[m
+
+[1m[36m# Replace the default index page content[m
+[1m[33mecho[m[1m[35m [m[1m[33m"[m[1m[34m$STRING[m[1m[33m"[m[1m[35m [m[1m[33m>[m /var/www/html/index.nginx-debian.html
+[1m[33m=======[m
+[1m[36m# a script that installs Nginx server and /redirect_me
+# to another page. With "301 Move Permanently" using
+# the "1-install_nginx_web_server" script. 
+
+# Update the package lists for upgrades and installs the Nginx server[m
+sudo apt-get [1m[31m-y[m update
+sudo apt-get [1m[31m-y[m install nginx
+
+[1m[36m# Opens the HTTP (port 80) in the UFW firewall to allow Nginx traffic[m
+sudo ufw allow [1m[33m'[m[1m[35mNginx HTTP[m[1m[33m'[m
+
+[1m[36m# Writes the string to the /var/www/html/index file using sudo privileges[m
+[1m[33mecho[m[1m[35m [m[1m[33m"[m[1m[35mWelcome to jostech.tech software solution provider![m[1m[33m"[m[1m[35m [m| sudo tee /var/www/html//[33;1Hindex
+
+[1m[36m# Modifies the Nginx default server configuration file to add a rewrite rule that ree[36;1Hdirects
+# requests for /redirect_me to https://www.youtube.com/watch?v=QH2-TGUlwu4/ permanenn[38;1Htly[m
+sudo [1m[33msed[m [1m[31m-i[m [1m[33m'[m[1m[35m/listen 80 default_server/a rewrite ^/redirect_me https://www.youtube.cc[40;1Hom/watch?v=QH2-TGUlwu4/ permanent;[m[1m[33m'[m /etc/nginx/sites-available/default
+
+[1m[36m# Restarts the Nginx service to apply the changes made to the configuration[m
+sudo service nginx [1m[33mrestart
+>>>>>>>[m 5067b3b35b40f5dc84ff9abd81a7e34959dd2757
+[1m[34m~                                                                                   [46;1H~                                                                                   [47;1H~                                                                                   [m[48;67H16,40[9CAll"3-redirection" 39L, 1697C[17;40H[?25h[?25l[48;57Hi[17;40H[48;57H [17;40H[48;1H[1m-- INSERT --[m[48;13H[K[48;67H16,40[9CAll[17;40H[?25h[?25l[48;68H5,1 [16;1H[?25h[?25l[48;68H4,34[15;34H[?25h[?25l[48;68H3,40[14;40H[?25h[?25l[48;68H2,1 [13;1H[?25h[?25l[48;68H1,31[12;31H[?25h[?25l[48;68H0,40[11;40H[?25h[?25l[48;67H9,1  [10;1H[?25h[?25l[48;67H8,40[9;40H[?25h[?25l[7;40H[1m[35m[46m{[m[1m[31m\n\t\t[m[1m[35mreturn 301 https://www.youtube.com/watt[8;1Hc[m[21C[1m[35m[46m}[m[1m[31m\n[m[1m[33m"[m[48;67H7[7;40H[?25h[?25l[1m[35m{[m[1m[31m\n\t\t[m[1m[35mreturn 301 https://www.youtube.com/watt[8;1Hc[21C}[m[1m[31m\n[m[1m[33m"[m[48;67H6[6;40H[?25h[?25l[48;67H5,22[5;22H[?25h[?25l[48;67H4,42-40[4;40H[?25h[?25l[48;67H3,40   [3;40H[?25h[?25l[48;67H2,13[2;13H[?25h[?25l[48;67H1,20[1;20H[?25h[?25l[48;67H2,13[2;13H[?25h[?25l[2;12H[K[48;70H2[2;12H[?25h[?25l[2;11H[K[48;70H1[2;11H[?25h[?25l[2;10H[K[48;70H0[2;10H[?25h[?25l[2;9H[K[48;69H9 [2;9H[?25h[?25l[48;69H8[2;8H[?25h[?25l[2;7H[K[48;69H7[2;7H[?25h[?25l[2;6H[K[48;69H6[2;6H[?25h[?25l[2;5H[K[48;69H5[2;5H[?25h[?25l[2;4H[K[48;69H4[2;4H[?25h[?25l[2;3H[K[48;69H3[2;3H[?25h[?25l[2;2H[K[48;69H2[2;2H[?25h[?25l[2;1H[K[48;69H1[2;1H[?25h[?25l[48;67H3[3;1H[?25h[?25l[48;67H4[4;1H[?25h[?25l[48;67H5[5;1H[?25h[?25l[48;67H6[6;1H[?25h[?25l[48;67H7[7;1H[?25h[?25l[48;67H8[9;1H[?25h[?25l[48;67H9[10;1H[?25h[?25l[48;67H10,1[11;1H[?25h[?25l[48;68H1[12;1H[?25h[?25l[48;68H2[13;1H[?25h[?25l[48;68H3[14;1H[?25h[?25l[48;68H4[15;1H[?25h[?25l[48;68H5[16;1H[?25h[?25l[48;68H6[17;1H[?25h[?25l[48;68H7[18;1H[?25h[?25l[48;68H8[19;1H[?25h[?25l[48;68H9[20;1H[?25h[?25l[48;67H20[21;1H[?25h[?25l[48;68H1[22;1H[?25h[?25l[48;68H2[23;1H[?25h[?25l[48;68H3[24;1H[?25h[?25l[48;68H4[25;1H[?25h[?25l[48;68H5[26;1H[?25h[?25l[48;68H6[27;1H[?25h[?25l[48;68H7[28;1H[?25h[?25l[48;68H8[29;1H[?25h[?25l[48;68H9[30;1H[?25h[?25l[48;67H30[31;1H[?25h[?25l[48;68H1[32;1H[?25h[?25l[48;68H2[34;1H[?25h[?25l[48;68H3[35;1H[?25h[?25l[48;68H4[37;1H[?25h[?25l[48;68H5[39;1H[?25h[?25l[48;68H6[41;1H[?25h[?25l[48;68H7[42;1H[?25h[?25l[48;68H8[43;1H[?25h[?25l[48;68H9[44;1H[?25h[?25l[48;70H2[44;2H[?25h[?25l[48;70H3[44;3H[?25h[?25l[48;70H4[44;4H[?25h[?25l[48;70H5[44;5H[?25h[?25l[48;70H6[44;6H[?25h[?25l[48;70H7[44;7H[?25h[?25l[48;70H8[44;8H[?25h[?25l[48;70H9[44;9H[?25h[?25l[48;70H10[44;10H[?25h[?25l[48;71H1[44;11H[?25h[?25l[48;71H2[44;12H[?25h[?25l[48;71H3[44;13H[?25h[?25l[48;71H4[44;14H[?25h[?25l[48;71H5[44;15H[?25h[?25l[48;71H6[44;16H[?25h[?25l[48;71H7[44;17H[?25h[?25l[48;71H8[44;18H[?25h[?25l[48;71H9[44;19H[?25h[?25l[48;70H20[44;20H[?25h[?25l[48;71H1[44;21H[?25h[?25l[48;71H2[44;22H[?25h[?25l[48;71H3[44;23H[?25h[?25l[48;71H4[44;24H[?25h[?25l[48;71H5[44;25H[?25h[?25l[48;71H6[44;26H[?25h[?25l[48;71H7[44;27H[?25h[?25l[48;71H8[44;28H[?25h[?25l[48;71H9[44;29H[?25h[?25l[48;70H30[44;30H[?25h[?25l[48;71H1[44;31H[?25h[?25l[48;71H2[44;32H[?25h[?25l[48;71H3[44;33H[?25h[?25l[48;71H4[44;34H[?25h[?25l[48;71H5[44;35H[?25h[?25l[48;71H6[44;36H[?25h[?25l[48;71H7[44;37H[?25h[?25l[48;71H8[44;38H[?25h[?25l[48;71H9[44;39H[?25h[?25l[48;70H40[44;40H[?25h[?25l[48;71H1[44;41H[?25h[?25l[48;71H2[44;42H[?25h[?25l[48;71H3[44;43H[?25h[?25l[48;71H4[44;44H[?25h[?25l[48;71H5[44;45H[?25h[?25l[48;71H6[44;46H[?25h[?25l[48;71H7[44;47H[?25h[?25l[48;71H8[44;48H[?25h[?25l[48;71H9[44;49H[?25h[?25l[44;48H[K[48;71H8[44;48H[?25h[?25l[44;47H[K[48;71H7[44;47H[?25h[?25l[44;46H[K[48;71H6[44;46H[?25h[?25l[44;45H[K[48;71H5[44;45H[?25h[?25l[44;44H[K[48;71H4[44;44H[?25h[?25l[44;43H[K[48;71H3[44;43H[?25h[?25l[44;42H[K[48;71H2[44;42H[?25h[?25l[44;41H[K[48;71H1[44;41H[?25h[?25l[44;40H[K[48;71H0[44;40H[?25h[?25l[44;39H[K[48;70H39[44;39H[?25h[?25l[44;38H[K[48;71H8[44;38H[?25h[?25l[44;37H[K[48;71H7[44;37H[?25h[?25l[44;36H[K[48;71H6[44;36H[?25h[?25l[44;35H[K[48;71H5[44;35H[?25h[?25l[44;34H[K[48;71H4[44;34H[?25h[?25l[44;33H[K[48;71H3[44;33H[?25h[?25l[44;32H[K[48;71H2[44;32H[?25h[?25l[44;31H[K[48;71H1[44;31H[?25h[?25l[44;30H[K[48;71H0[44;30H[?25h[?25l[44;29H[K[48;70H29[44;29H[?25h[?25l[44;28H[K[48;71H8[44;28H[?25h[?25l[44;27H[K[48;71H7[44;27H[?25h[?25l[44;26H[K[48;71H6[44;26H[?25h[?25l[44;25H[K[48;71H5[44;25H[?25h[?25l[44;24H[K[48;71H4[44;24H[?25h[?25l[44;23H[K[48;71H3[44;23H[?25h[?25l[44;22H[K[48;71H2[44;22H[?25h[?25l[44;21H[K[48;71H1[44;21H[?25h[?25l[44;20H[K[48;71H0[44;20H[?25h[?25l[44;19H[K[48;70H19[44;19H[?25h[?25l[44;18H[K[48;71H8[44;18H[?25h[?25l[44;17H[K[48;71H7[44;17H[?25h[?25l[44;16H[K[48;71H6[44;16H[?25h[?25l[44;15H[K[48;71H5[44;15H[?25h[?25l[44;14H[K[48;71H4[44;14H[?25h[?25l[1m[35m5067[m[44;13H[K[48;71H3[44;13H[?25h[?25l[44;12H[K[48;71H2[44;12H[?25h[?25l[44;11H[K[48;71H1[44;11H[?25h[?25l[44;10H[K[48;71H0[44;10H[?25h[?25l[44;9H[K[48;70H9 [44;9H[?25h[?25l[48;70H8[44;8H[?25h[?25l[44;7H[K[48;70H7[44;7H[?25h[?25l[44;6H[K[48;70H6[44;6H[?25h[?25l[44;5H[K[48;70H5[44;5H[?25h[?25l[44;4H[K[48;70H4[44;4H[?25h[?25l[44;3H[K[48;70H3[44;3H[?25h[?25l[44;2H[K[48;70H2[44;2H[?25h[?25l[44;1H[K[48;70H1[44;1H[?25h[?25l[1m[34m~                                                                                   [m[48;68H8,27[43;27H[?25h[?25l[48;68H7[42;27H[?25h[?25l[48;68H6,1 [41;1H[?25h[?25l[48;68H5,27[39;27H[?25h[?25l[48;68H4[37;27H[?25h[?25l[48;68H3[35;27H[?25h[?25l[48;68H2,1 [34;1H[?25h[?25l[48;68H1,27[32;27H[?25h[?25l[48;68H0[31;27H[?25h[?25l[48;67H29,1 [30;1H[?25h[?25l[48;68H8,27[29;27H[?25h[?25l[28;18H[1m[36m[46m([m[1m[36mport 80[m[1m[36m[46m)[m[1m[36m in the UFW firewall to allow Nginx traffic[m[48;68H7[28;27H[?25h[?25l[28;18H[1m[36m(port 80) in the UFW firewall to allow Nginx traffic[m[48;68H6,1 [27;1H[?25h[?25l[48;68H5,27[26;27H[?25h[?25l[48;68H4,23[25;23H[?25h[?25l[48;68H3,27[24;27H[?25h[?25l[48;68H2,1 [23;1H[?25h[?25l[48;68H1,27[22;27H[?25h[?25l[48;68H0[21;27H[?25h[?25l[48;67H19[20;27H[?25h[?25l[48;68H8,8 [19;8H[?25h[?25l[48;68H7,27[18;27H[?25h[?25l[48;68H6[17;27H[?25h[?25l[48;68H5,1 [16;1H[?25h[?25l[48;68H4,27[15;27H[?25h[?25l[48;68H3[14;27H[?25h[?25l[48;68H2,1 [13;1H[?25h[?25l[48;68H1,27[12;27H[?25h[?25l[48;68H0[11;27H[?25h[?25l[48;67H9,1  [10;1H[?25h[?25l[48;67H8,27[9;27H[?25h[?25l[48;67H7[7;27H[?25h[?25l[48;67H6[6;27H[?25h[?25l[48;67H5,22[5;22H[?25h[?25l[48;67H4,27[4;27H[?25h[?25l[48;67H3[3;27H[?25h[?25l[48;67H2,1 [2;1H[?25h[?25l[48;67H1,20[1;20H[?25h[48;1H[K[1;19H[?25l[48;57H^[[1;19H[48;57H  [1;20H[48;67H1,19[10CAll[1;19H[?25h[?25l[48;57H:[1;19H[48;57H[K[48;1H:[?2004h[?25hwq[?25l[?2004l"3-redirection" 38L, 1636C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ git [K[K[K[Ksud [Ko git add .
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ sudo git commit  -m "Redirection"
+[master 0148c7a] Redirection
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ git p[K[K[K[K[Ksudo git push
+Enumerating objects: 17, done.
+Counting objects:   6% (1/16)Counting objects:  12% (2/16)Counting objects:  18% (3/16)Counting objects:  25% (4/16)Counting objects:  31% (5/16)Counting objects:  37% (6/16)Counting objects:  43% (7/16)Counting objects:  50% (8/16)Counting objects:  56% (9/16)Counting objects:  62% (10/16)Counting objects:  68% (11/16)Counting objects:  75% (12/16)Counting objects:  81% (13/16)Counting objects:  87% (14/16)Counting objects:  93% (15/16)Counting objects: 100% (16/16)Counting objects: 100% (16/16), done.
+Compressing objects:  12% (1/8)Compressing objects:  25% (2/8)Compressing objects:  37% (3/8)Compressing objects:  50% (4/8)Compressing objects:  62% (5/8)Compressing objects:  75% (6/8)Compressing objects:  87% (7/8)Compressing objects: 100% (8/8)Compressing objects: 100% (8/8), done.
+Writing objects:  11% (1/9)Writing objects:  22% (2/9)Writing objects:  33% (3/9)Writing objects:  44% (4/9)Writing objects:  55% (5/9)Writing objects:  66% (6/9)Writing objects:  77% (7/9)Writing objects:  88% (8/9)Writing objects: 100% (9/9)Writing objects: 100% (9/9), 1.07 KiB | 1.07 MiB/s, done.
+Total 9 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/6)[Kremote: Resolving deltas:  16% (1/6)[Kremote: Resolving deltas:  33% (2/6)[Kremote: Resolving deltas:  50% (3/6)[Kremote: Resolving deltas:  66% (4/6)[Kremote: Resolving deltas:  83% (5/6)[Kremote: Resolving deltas: 100% (6/6)[Kremote: Resolving deltas: 100% (6/6), completed with 3 local objects.[K
+To https://github.com/Ojobumiche/alx-system_engineering-devops.git
+   5067b3b..0148c7a  master -> master
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ ls
+[0m[01;32m0-transfer_file[0m             [01;32m1-transfer_file[0m        [01;32m3-redirection[0m         README.md
+[01;32m1-install_nginx_web_server[0m  2-setup_a_domain_name  [01;32m4-not_found_page_404[0m  that
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ git [1@s[1@u[1@d[1@o[1@ [C[C[C[C pull
+Already up to date.
+]0;ubuntu@216736-web-01: /alx-system_engineering-devops/0x0C-web_serverubuntu@216736-web-01:/alx-system_engineering-devops/0x0C-web_server$ exit
+logout
+Connection to 18.204.16.7 closed.
+]0;root@cacfd543241b: /alx-system_engineering-devops/0x0C-web_serverroot@cacfd543241b:/alx-system_engineering-devops/0x0C-web_server# exit
+exit
+
+Script done on Wed 28 Jun 2023 11:07:18 AM PDT
