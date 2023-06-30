@@ -1,17 +1,13 @@
 #!/usr/bin/env bash
-
-# Configure your Nginx server so that /redirect_me is redirecting to another page.
-# The redirection must be a “301 Moved Permanently”
-# Dont forget to add a / to redirect_me :
-# a script that installs Nginx server and /redirect_me
+# script that installs Nginx server and /redirect_me
 # to another page. With "301 Move Permanently" using
 # the "1-install_nginx_web_server" script. 
 
-# Update the package lists for upgrades and installs the Nginx server.
+# Update the package lists for upgrades and installs the Nginx server
 sudo apt-get -y update
 sudo apt-get -y install nginx
 
-# Opens the HTTP (port 80) in the UFW firewall to allow Nginx traffic.
+# Opens the HTTP (port 80) in the UFW firewall to allow Nginx traffic
 sudo ufw allow 'Nginx HTTP'
 
 # Writes the string to the /var/www/html/index file using sudo privileges
