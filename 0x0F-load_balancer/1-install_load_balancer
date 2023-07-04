@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# a script that install and configure HAproxy on web-02
+# distribute requests using a roundwobin algorithm
+# HAproxy manages init the script
+
+sudo apt-get -y install software-properties-common
+sudo add-apt-repository -y ppa:vbernat/haproxy-2.5
+sudo apt-get -y update
+
+# Install HAProxy
+sudo apt-get -y install haproxy
+sudo sed -i -e '$aENABLED=1\n' /etc/default/haproxy
+sudo sed -i -e '$a\listen http-in\n\tbind :80\n\tbalance roundrobin\n\tserver 216736-lb-01 35.153.33.193:80 check\n\tserver 216736-web-02 34.227.93.128:80 check\n' /etc/haproxy/haproxy.cfg
+sudo service haproxy restart
