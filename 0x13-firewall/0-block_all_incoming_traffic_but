@@ -2,6 +2,7 @@
 # a script that installs the ufw firewall and setup a few rules on web-01.
 # Configures a ufw firewall to block all incoming traffic except for TCP ports 22, 443, and 80.
 
+<<<<<<< HEAD
 apt-get update
 apt-get install ufw -y
 sed -i 's/IPV6=.*/IPV6=yes/' /etc/default/ufw
@@ -12,3 +13,14 @@ ufw default allow outgoing
 ufw allow 22/tcp
 ufw allow 443/tcp
 ufw allow 80/tcp
+=======
+sudo apt update
+sudo apt install ufw
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 22/tcp
+sudo ufw enable
+sudo ufw status verbose
+>>>>>>> b06f854bea91d2325395fa746b1d2e354a36cb3d
